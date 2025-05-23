@@ -70,7 +70,7 @@ int main( )
     }
     dijkstra( 1, n);
     for(i = 1; i <= n; i++)
-        cout << u << " ";
+        cout << dist[i] << " ";
     cout << endl;
     return 0;
 }
